@@ -18,7 +18,6 @@ GPIO.setup(31, GPIO.OUT)
 @app.route("/")
 def hello():
     print("sanirim biri bizim sayfaya girdi baskanim")
-    ledSondur(31)
     return render_template('index.html', x = led_0)
 
 @app.route("/ledYak")
