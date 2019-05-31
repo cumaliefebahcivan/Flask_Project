@@ -8,11 +8,9 @@ led_0 = "Led sonmus durumda."
 anahtar = 0
 def ledYak(pin):
     GPIO.output(pin,GPIO.HIGH)
-    return
 
 def ledSondur(pin):
     GPIO.output(pin, GPIO.LOW)
-    return
 
 GPIO.setmode(GPIO.BOARD)
 
